@@ -84,7 +84,7 @@ b {
         .menu__main_items li a {
           font-weight: bold;
           font-size: 14px;
-          line-height: 400%;
+          line-height: 600%;
           padding: 0 10px; }
     .menu__main_cart {
       float: right;
@@ -97,7 +97,7 @@ b {
         .menu__main_cart li a {
           font-weight: bold;
           font-size: 14px;
-          line-height: 400%; }
+          line-height: 600%; }
           .menu__main_cart li a img {
             vertical-align: middle;
             position: relative;

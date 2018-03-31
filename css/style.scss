@@ -96,7 +96,6 @@ b{
 	    }
 	}
 	&__main{
-		//float: right;
 		text-align: center;
 		&_items{
 			display: inline-block;
@@ -108,7 +107,7 @@ b{
 					@extend %cl-black;
 					font-weight: bold;
 					font-size: 14px;
-					line-height: 400%;
+					line-height: 600%;
 					padding: 0 10px;
 				}
 				a:hover{
@@ -127,7 +126,7 @@ b{
 					@extend %cl-black;
 					font-weight: bold;
 					font-size: 14px;
-					line-height: 400%;
+					line-height: 600%;
 					img{
 						vertical-align: middle;
 						position: relative;
