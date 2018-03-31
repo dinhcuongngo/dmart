@@ -1,0 +1,192 @@
+/*=============COMMON SETTING=============*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+b, .menu__main_items li a:hover, .menu__main_cart li a:hover {
+  color: #1abc9c; }
+
+.header, .search form button {
+  background-color: #1abc9c; }
+
+.menu__main_items li a, .menu__main_cart li a {
+  color: #000000; }
+
+.header__left, .header__right a, .search form button, .banner__item_content_title, .banner__item_content_btn, .banner__control {
+  color: #ffffff; }
+
+.clearfix::after, .clearfix::before {
+  content: "";
+  display: table; }
+
+.clearfix::after {
+  clear: both; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.search-show {
+  display: block !important;
+  top: 0 !important; }
+
+b {
+  font-weight: bold; }
+
+/*=============HEADER=============*/
+.header {
+  position: relative;
+  width: 100%;
+  display: block; }
+  .header ul {
+    margin: 0;
+    padding: 0; }
+    .header ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 10px;
+      font-size: 0.8em;
+      line-height: 350%; }
+  .header__left {
+    float: left; }
+  .header__right {
+    float: right; }
+
+/*=============MENU=============*/
+.menu {
+  position: relative;
+  width: 100%;
+  display: block; }
+  .menu__logo {
+    float: left; }
+    .menu__logo a {
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #555252;
+      line-height: 300%;
+      font-weight: 300; }
+  .menu__main {
+    text-align: center; }
+    .menu__main_items {
+      display: inline-block;
+      margin: 0;
+      padding: 0; }
+      .menu__main_items li {
+        list-style: none;
+        display: inline-block; }
+        .menu__main_items li a {
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 400%;
+          padding: 0 10px; }
+    .menu__main_cart {
+      float: right;
+      display: inline-block;
+      margin: 0;
+      padding: 0; }
+      .menu__main_cart li {
+        list-style: none;
+        display: inline-block; }
+        .menu__main_cart li a {
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 400%; }
+          .menu__main_cart li a img {
+            vertical-align: middle;
+            position: relative;
+            top: -5px; }
+  .menu__bar {
+    display: none;
+    float: right; }
+    .menu__bar .bar1, .menu__bar .bar2, .menu__bar .bar3 {
+      width: 25px;
+      height: 3px;
+      background-color: #666666;
+      margin: 2px 0;
+      transition: all 0.5s; }
+  .menu .change .bar1 {
+    transform: rotate(45deg) translate(5px, 8px); }
+  .menu .change .bar2 {
+    opacity: 0; }
+  .menu .change .bar3 {
+    transform: rotate(-45deg) translate(-1px, -2px); }
+
+/*=============SEARCH=============*/
+.search {
+  position: relative;
+  display: none;
+  width: 100%;
+  top: -100px;
+  background: url("../images/bg.png") #1abc9c no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 40px 0;
+  height: 150px;
+  transition: all 0.5s; }
+  .search form {
+    position: relative; }
+    .search form input[type="text"] {
+      width: 100%;
+      padding: 21px;
+      border: 0;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px; }
+    .search form button {
+      position: absolute;
+      right: 1px;
+      top: 1px;
+      padding: 20px 40px;
+      border: 0;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px; }
+
+/*=============BANNER=============*/
+.banner {
+  position: relative;
+  display: block;
+  width: 100%; }
+  .banner__item {
+    width: 100%;
+    position: relative; }
+    .banner__item_photo {
+      background-color: #000000; }
+      .banner__item_photo img {
+        width: 100%;
+        height: auto;
+        display: block;
+        opacity: 0.5; }
+    .banner__item_content {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      right: 20%;
+      text-align: center; }
+      .banner__item_content_title {
+        font-size: 3em;
+        text-transform: uppercase; }
+      .banner__item_content_btn {
+        text-transform: uppercase;
+        border: 2px solid #1abc9c;
+        padding: 7px 20px; }
+  .banner__control {
+    position: absolute;
+    top: 40%;
+    font-size: 3em;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    opacity: 0.5; }
+  .banner a.left {
+    left: 0; }
+  .banner a.right {
+    right: 0; }
+
+/*# sourceMappingURL=style.css.map */
