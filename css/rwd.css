@@ -60,6 +60,19 @@
       padding: 5px 10px;
       font-size: 0.5em; }
   .banner__control {
-    display: none; } }
+    display: none; }
+
+  /*=============SERVICES=============*/
+  .services__items {
+    width: 100%; }
+
+  /*=============COLLECTION=============*/
+  .collection__items {
+    width: 100%; }
+
+  /*=============PRODUCTION FILTER=============*/
+  .prod_filter_menu ul li {
+    display: block;
+    margin: 10px 0; } }
 
 /*# sourceMappingURL=rwd.css.map */

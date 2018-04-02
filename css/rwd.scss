@@ -129,4 +129,30 @@ $res_1200: "only screen and (min-width: 1200px)";
 		}
 	}
 
+	/*=============SERVICES=============*/
+	.services{
+		&__items{
+			width: 100%;
+		}
+	}
+
+	/*=============COLLECTION=============*/
+	.collection{
+		&__items{
+			width: 100%;
+		}
+	}
+
+	/*=============PRODUCTION FILTER=============*/
+	.prod_filter{
+		&_menu{
+			ul{
+				li{
+					display: block;
+					margin: 10px 0;
+				}
+			}
+		}
+	}
+
 }//end of res 320

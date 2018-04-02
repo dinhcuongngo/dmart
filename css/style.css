@@ -64,7 +64,7 @@ b {
   .title-section h1::before {
     content: "";
     background-color: #1abc9c;
-    width: 10%;
+    width: 20%;
     height: 3px;
     display: block;
     margin: 0 auto;
@@ -75,7 +75,7 @@ b {
   .title-section h1::after {
     content: "";
     background-color: #1abc9c;
-    width: 10%;
+    width: 20%;
     height: 3px;
     display: block;
     margin: 0 auto;
@@ -87,7 +87,7 @@ b {
 .title-section::after {
   content: "";
   background-color: #1abc9c;
-  width: 10%;
+  width: 20%;
   height: 5px;
   display: block;
   margin: 0 auto;
